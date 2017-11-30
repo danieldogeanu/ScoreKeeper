@@ -24,11 +24,22 @@
         <item name="android:background">@drawable/gradient_bg</item>
     </style>
 
+    <style name="app_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
     <style name="main_team_layout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">24dp</item>
-        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_below">@id/app_title</item>
         <item name="android:orientation">horizontal</item>
     </style>
 

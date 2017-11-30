@@ -11,6 +11,11 @@
     <RelativeLayout
         style="@style/main_layout" >
 
+        <TextView
+            style="@style/app_title"
+            android:id="@+id/app_title"
+            android:text="@string/app_name" />
+
         <LinearLayout style="@style/main_team_layout">
 
             <LinearLayout style="@style/team_layout">
