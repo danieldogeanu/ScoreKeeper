@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8835d4</color>
+    <color name="colorPrimaryDark">#5a149b</color>
+    <color name="colorAccent">#00ffb4</color>
+
+    <color name="colorTitle">#dcffffff</color>
+    <color name="colorScore">#FFFFFF</color>
+    <color name="colorButton">#dcffffff</color>
+    <color name="colorButtonDark">#dc000000</color>
+    <color name="colorSeparator">#64ffffff</color>
+
+    <color name="colorMagenta">#ca049e</color>
+    <color name="colorPurple">#8835d4</color>
+    <color name="colorTeal">#00ffb4</color>
+    <color name="colorTealBG">#aa00ffb4</color>
+</resources>

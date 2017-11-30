@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.danieldogeanu.android.scorekeeper.MainActivity">
+
+    <ImageView
+        style="@style/main_bg_img" />
+
+    <RelativeLayout
+        style="@style/main_layout" >
+
+        <LinearLayout style="@style/main_team_layout">
+
+            <LinearLayout style="@style/team_layout">
+
+                <TextView
+                    style="@style/team_title"
+                    android:text="@string/team_a_title" />
+
+                <TextView
+                    android:id="@+id/team_a_score"
+                    style="@style/team_score"
+                    android:text="0" />
+
+                <Button
+                    style="@style/team_btn"
+                    android:onClick="addThreePointsTeamA"
+                    android:text="@string/three_points_btn" />
+
+                <Button
+                    style="@style/team_btn"
+                    android:onClick="addTwoPointsTeamA"
+                    android:text="@string/two_points_btn" />
+
+                <Button
+                    style="@style/team_btn"
+                    android:layout_marginBottom="0dp"
+                    android:onClick="addOneForTeamA"
+                    android:text="@string/one_point_btn" />
+
+            </LinearLayout>
+
+            <View style="@style/team_sep" />
+
+            <LinearLayout style="@style/team_layout">
+
+                <TextView
+                    style="@style/team_title"
+                    android:text="@string/team_b_title" />
+
+                <TextView
+                    android:id="@+id/team_b_score"
+                    style="@style/team_score"
+                    android:text="0" />
+
+                <Button
+                    style="@style/team_btn"
+                    android:onClick="addThreePointsTeamB"
+                    android:text="@string/three_points_btn" />
+
+                <Button
+                    style="@style/team_btn"
+                    android:onClick="addTwoPointsTeamB"
+                    android:text="@string/two_points_btn" />
+
+                <Button
+                    style="@style/team_btn"
+                    android:layout_marginBottom="0dp"
+                    android:onClick="addOneForTeamB"
+                    android:text="@string/one_point_btn" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/reset_btn"
+            android:onClick="resetScore"
+            android:text="@string/reset_btn" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
