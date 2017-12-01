@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle">
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <solid
-        android:color="@color/colorButton" />
+    <item android:state_pressed="true">
 
-    <corners
-        android:radius="30dp" />
+        <shape android:shape="rectangle">
 
-    <stroke
-        android:width="1dp"
-        android:color="@color/colorButton" />
+            <solid android:color="@color/colorTealBG" />
 
-</shape>
+            <corners android:radius="30dp" />
+
+            <stroke
+                android:width="1dp"
+                android:color="@color/colorTealBG" />
+
+        </shape>
+
+    </item>
+
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <solid android:color="@color/colorButton" />
+
+            <corners android:radius="30dp" />
+
+            <stroke
+                android:width="1dp"
+                android:color="@color/colorButton" />
+
+        </shape>
+
+    </item>
+
+</selector>
