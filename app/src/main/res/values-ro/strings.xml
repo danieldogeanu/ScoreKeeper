@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puncte Înscrise</string>
+    <string name="team_a_title">Echipa A</string>
+    <string name="team_b_title">Echipa B</string>
+    <string name="three_points_btn">+3 Puncte</string>
+    <string name="two_points_btn">+2 Puncte</string>
+    <string name="one_point_btn">Aruncare Liberă</string>
+    <string name="reset_btn">Resetează</string>
+</resources>
