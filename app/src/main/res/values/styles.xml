@@ -36,6 +36,12 @@
         <item name="android:textSize">28sp</item>
     </style>
 
+    <style name="land_app_title" parent="@style/app_title">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
     <style name="main_team_layout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -50,6 +56,22 @@
         <item name="android:paddingBottom">16dp</item>
         <item name="android:layout_weight">1</item>
         <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="land_team_layout" parent="@style/team_layout">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="land_inner_score_layout" parent="@style/team_layout">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="land_inner_buttons_layout" parent="@style/team_layout">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_weight">2</item>
     </style>
 
     <style name="team_sep">
@@ -71,6 +93,10 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
+    <style name="land_team_title" parent="@style/team_title">
+        <item name="android:textSize">12sp</item>
+    </style>
+
     <style name="team_score">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -81,12 +107,22 @@
         <item name="android:textSize">56sp</item>
     </style>
 
+    <style name="land_team_score" parent="@style/team_score">
+        <item name="android:textSize">46sp</item>
+    </style>
+
     <style name="team_btn" parent="@style/Widget.AppCompat.Button.Borderless">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">12dp</item>
         <item name="android:background">@drawable/button_border</item>
         <item name="android:textColor">@color/colorButton</item>
+    </style>
+
+    <style name="land_team_btn" parent="@style/team_btn">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
     </style>
 
     <style name="reset_btn" parent="@style/Widget.AppCompat.Button.Borderless">
@@ -99,6 +135,12 @@
         <item name="android:layout_marginBottom">8dp</item>
         <item name="android:background">@drawable/button_bg</item>
         <item name="android:textColor">@color/colorPurple</item>
+    </style>
+
+    <style name="land_reset_btn" parent="@style/reset_btn">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginBottom">0dp</item>
     </style>
 
 </resources>
