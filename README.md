@@ -6,9 +6,11 @@ This is just a practice app for [Google Developer Challenge Scholarship: Android
 
 ### Working Files Are:
 * [MainActivity.java](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/java/com/danieldogeanu/android/scorekeeper/MainActivity.java)
-* [activity_main.xml](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/res/layout/activity_main.xml)
+* [layout/activity_main.xml](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/res/layout/activity_main.xml)
+* [layout-land/activity_main.xml](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/res/layout-land/activity_main.xml)
 * [colors.xml](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/res/values/colors.xml)
-* [strings.xml](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/res/values/strings.xml)
+* [values/strings.xml](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/res/values/strings.xml)
+* [values-ro/strings.xml](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/res/values-ro/strings.xml)
 * [styles.xml](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/res/values/styles.xml)
 * [button_bg.xml](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/res/drawable/button_bg.xml)
 * [button_border.xml](https://github.com/danieldogeanu/ScoreKeeper/blob/master/app/src/main/res/drawable/button_border.xml)
